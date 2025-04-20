@@ -7,13 +7,6 @@ class OpensslAT11 < Formula
   sha256 "ebbfc844a8c8cc0ea5dc10b86c9ce97f401837f3fa08c17b2cdadc118253cf99"
   version_scheme 1
 
-  bottle do
-    sha256 "09e138ea390a64a51ab23fe12420eb59be0f693497833a7e4f10dc52a6029dcb" => :mojave
-    sha256 "1428d5cd74ef3781741afd1f88f94333c511876a6573297a32bb569c3f3b9a8a" => :high_sierra
-    sha256 "e4120f47f54bffed780ac6668607c9d397c8e4f514425856a076454ac25ef35f" => :sierra
-    sha256 "8a79a8364490b31e89614d7e92399bd809bf4ef5c584c0df8ad87ac9b6e7e7b8" => :el_capitan
-  end
-
   devel do
     url "https://www.openssl.org/source/openssl-1.1.1-pre8.tar.gz"
     sha256 "1205cd763dd92c910cc590658a5b0774599e8587d89d6debd948f242b949321e"
