@@ -2,7 +2,7 @@ class OpensslAT11 < Formula
   desc "Cryptography and SSL/TLS Toolkit"
   homepage "https://www.openssl.org/"
   url "https://www.openssl.org/source/openssl-1.1.1w.tar.gz"
-  sha256 "cf3098959aedefb243c9fc4ac839998426dfbde56a2fcb0ee3ddf6cf633d5c99"
+  sha256 "cf3098950cb4d853ad95c0841f1f9c6d3dc102dccfcacd521d93925208b76ac8"
   license "OpenSSL"
 
   keg_only :versioned_formula
